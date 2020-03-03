@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EmployeeManagement.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement.Controllers
 {
+    [Authorize]
     public class AccountController : Controller
     {
         private readonly UserManager<IdentityUser> userManager;
@@ -71,12 +73,13 @@ namespace EmployeeManagement.Controllers
             await signInManager.SignOutAsync();
             return RedirectToAction("index", "home");
         }
+        [AllowAnonymous]
         [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
-
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model)
         {

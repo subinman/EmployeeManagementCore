@@ -155,3 +155,4 @@ E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Employ
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.dll
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.pdb
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csprojAssemblyReference.cache
