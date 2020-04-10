@@ -133,7 +133,15 @@ E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Employ
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.TagHelpers.input.cache
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.TagHelpers.output.cache
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorCoreGenerate.cache
+E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditRole.cshtml.g.cs
+E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditUser.cshtml.g.cs
+E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
+E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ListRoles.cshtml.g.cs
+E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ListUsers.cshtml.g.cs
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Details.cshtml.g.cs
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Edit.cshtml.g.cs
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Employees\Index.cshtml.g.cs
@@ -154,5 +162,4 @@ E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Employ
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CopyComplete
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.dll
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.pdb
-E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 E:\Core Try\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csprojAssemblyReference.cache

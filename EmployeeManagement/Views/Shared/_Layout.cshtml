@@ -1,11 +1,14 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
+@using EmployeeManagement.Models;
+@inject SignInManager<ApplicationUser> signInManager
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <environment include="Development">
         <link href="~/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
         <script src="~/lib/jquery/jquery.js"></script>
+        <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
         <script src="~/lib/bootstrap/js/bootstrap.js"></script>
     </environment>
     <environment exclude="Development">
@@ -39,10 +42,33 @@
                         @*<a class="nav-link" asp-controller="home" asp-action="create">Create</a>*@
                         <a href="/Home/Create" class="nav-link">Create</a>
                     </li>
+                    @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                    {
+                        @*<li class="nav-item">
+                            <a class="nav-link" asp-controller="Administration" asp-action="ListRoles"></a>
+                            <a href="/Administration/ListRoles" class="nav-link"> Manage Roles</a>
+
+
+                        </li>*@
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Manage
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                @*<a class="dropdown-item" asp-controller="Administration"
+           asp-action="ListUsers">Users</a>
+        <a class="dropdown-item" asp-controller="Administration"
+           asp-action="ListRoles">Roles</a>*@
+                                <a class="dropdown-item" href="/Administration/ListUsers" class="nav-link"> Users</a>
+                                <a class="dropdown-item" href="/Administration/ListRoles" class="nav-link"> Roles</a>
+                            </div>
+                        </li>
+                    }
                 </ul>
                 <ul class="navbar-nav ml-auto">
         @*If the user is signed-in display Logout link*@
-        @if (SignInManager.IsSignedIn(User))
+        @if (signInManager.IsSignedIn(User))
         {
                     <li class="nav-item">
                         <form method="post" action="@Url.Action("logout", "account")">
